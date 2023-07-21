@@ -162,9 +162,11 @@ temp/
 **/*.zip# data files anywhere in the project directory and subfolders
 **/data/*
 **/*.zip
-# directorypaths
-directory.path
-# Mac OS
-**/.DS_Store# data files anywhere in the project directory and subfolders
+
 # data files anywhere in the project directory and subfolders
+
+directory.path
+
+# Mac OS
+
 **/.DS_Store

@@ -1,10 +1,10 @@
-# RPY
+# FlyOptoStimAnalysis
 
 <!-- badges: start -->
 <!-- badges: end -->
 
 Author: [Rishika Mohanta](https://neurorishika.github.io/)
-Latest Build Date: 2023-07-21 22:12:37
+Latest Build Date: 2023-07-21 22:37:40
 
 ## About the Project
 
@@ -33,4 +33,35 @@ poetry run jupyter notebook
 
 The project is organized as follows:
 ```
-.DS_Store\n.gitignore\nLICENSE\nREADME.md\nanalysis\n   |-- \x01gitkeep\n   |-- \x01ulse-learning-analysis.ipynb\ndata\n   |-- \x01DS_Store\n   |-- \x01gitkeep\n   |-- \x01ulStr_16-07-2023.ezip\n   |-- \x01ulStr_20-07-2023.ezip\ndirectory.path\nflyoptostim\n   |-- \x01_init__.py\n   |-- \x01dp_client.py\npoetry.lock\npoetry.toml\nprocessed_data\n   |-- \x01gitkeep\n   |-- \x01ulStr_20-07-2023\n   |   |-- \x01ootstrap_optimization_results_100.pkl\n   |   |-- \x01ootstrap_optimization_results_20.pkl\n   |   |-- \x01ootstrap_optimization_results_200.pkl\n   |   |-- \x01ootstrap_optimization_results_50.pkl\n   |   |-- \x01ootstrap_optimization_results_500.pkl\n   |   |-- \x01lobal_optimization_results.pkl\n   |-- \x01l_fit_boot.pkl\n   |-- \x01l_fit_go.pkl\npyproject.toml\nscripts\n   |-- \x01gitkeep\ntests\n   |-- \x01_init__.py\nutils\n   |-- \x01uild.py\n   |-- \x01uickstart.py\n   |-- \x01pdate.py\n```
+.gitignore
+LICENSE
+README.md
+analysis
+   |-- .gitkeep
+   |-- pulse-learning-analysis.ipynb
+flyoptostim
+   |-- __init__.py
+   |-- rdp_client.py
+poetry.lock
+poetry.toml
+processed_data
+   |-- .gitkeep
+   |-- pulStr_20-07-2023
+   |   |-- bootstrap_optimization_results_100.pkl
+   |   |-- bootstrap_optimization_results_20.pkl
+   |   |-- bootstrap_optimization_results_200.pkl
+   |   |-- bootstrap_optimization_results_50.pkl
+   |   |-- bootstrap_optimization_results_500.pkl
+   |   |-- global_optimization_results.pkl
+   |-- ql_fit_boot.pkl
+   |-- ql_fit_go.pkl
+pyproject.toml
+scripts
+   |-- .gitkeep
+tests
+   |-- __init__.py
+utils
+   |-- build.py
+   |-- quickstart.py
+   |-- update.py
+```
