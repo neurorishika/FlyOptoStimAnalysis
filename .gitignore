@@ -159,4 +159,12 @@ temp/
 # data folders anywhere in the project directory and subfolders
 **/data/*/
 # unprotected zip files anywhere in the project directory and subfolders
+**/*.zip# data files anywhere in the project directory and subfolders
+**/data/*
 **/*.zip
+# directorypaths
+directory.path
+# Mac OS
+**/.DS_Store# data files anywhere in the project directory and subfolders
+# data files anywhere in the project directory and subfolders
+**/.DS_Store
