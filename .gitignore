@@ -159,8 +159,8 @@ temp/
 # data folders anywhere in the project directory and subfolders
 **/data/*/
 # unprotected zip files anywhere in the project directory and subfolders
-**/*.zip# data files anywhere in the project directory and subfolders
-**/data/*
+**/*.zip
+**/data/*/
 **/*.zip
 
 # data files anywhere in the project directory and subfolders
